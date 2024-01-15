@@ -18,12 +18,12 @@ if __name__ == "__main__":
     group_chat = ChatRoom([user1, user2, user3])
 
     while True:
-        print("\n1. Send Message")
-        print("2. Display Messages")
-        print("3. Create Group Chat")
-        print("4. Send Group Message")
-        print("5. View Group Members")
-        print("6. Exit")
+        print("\n1. Send Message ✅")
+        print("2. Display Messages💕")
+        print("3. Create Group Chat ❤💬")
+        print("4. Send Group Message🚀")
+        print("5. View Group Members🙈")
+        print("6. Exit✋")
 
         choice = get_user_input("Enter your choice")
 
