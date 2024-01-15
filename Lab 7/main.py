@@ -37,7 +37,7 @@ if __name__ == "__main__":
                 recipient = user1 if recipient_id == 1 else user2
 
                 sender.send_message(content, recipient)
-                print("Message sent successfully!")
+                print("Message sent successfully!✅✅😍")
 
             except ValueError:
                 print("Invalid input. Please enter a valid user ID.")
