@@ -1,1 +1,1 @@
-This includes the programs relalted to different programming paradigms like functional programming , declerative programming, logical programming and OOP
+This includes the programs relalted to a programming paradigm OOP
