@@ -9,7 +9,7 @@ class User:
         self.messages = []
         self.displayed_messages = set()
 
-    def send_message(self, content, recipient):
+    def send_message(self, content, recipient):    
         message = Message(content, self, recipient)
         recipient.receive_message(message)
         self.messages.append(message)
