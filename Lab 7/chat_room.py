@@ -7,7 +7,7 @@ class ChatRoom:
         self.participants = participants
         self.messages = []
 
-    def send_group_message(self, content, sender):
+    def send_group_message(self, content, sender):   
         group_message = Message(content, sender, self)
         for participant in self.participants:
             if participant != sender:
